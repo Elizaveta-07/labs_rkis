@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+.section-header {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(52, 59, 59);
+}
+
+.authorization-block {
+    width: 400px;
+    height: 350px;
+    background-color: #b1b9de;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.authorization-block input {
+    width: 95%;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(237, 234, 243);
+    padding: 8px;
+}
+
+.authorization-block button {
+    margin: 10px;
+    width: 40%;
+    height: 30px;
+    border-radius: 7px;
+    border: 0px;
+    background-color: rgb(235, 235, 235);
+}
+
+.authorization-block .btn-reg {
+    text-align: center;
+}
+
+.data .exit {
+   width: 90px;
+   margin-left: 1270px;
+   margin-top: 5px;
+   background-color: rgb(231, 231, 231);
+}
+
+.from_btn {
+    width: 90px;
+    margin-left: 1270px;
+    margin-top: 5px;
+    background-color: rgb(231, 231, 231);
+}

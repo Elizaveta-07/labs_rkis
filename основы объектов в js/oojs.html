@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const person = {
+            name: {
+                first: 'Bob',
+                last: 'Smith'
+            },
+            age: 32,
+            gender: "male",
+            eyes: ["music", "skiing"],
+            bio: function () {
+                alert(
+                    this.name [0] +
+                    " " +
+                    this.name [1]+
+                    " is " +
+                    this.age +
+                    " years old. He likes " +
+                    this.interests[0] +
+                    " and " +
+                    this.interests[1] +
+                    " . ",
+                );
+        },
+        greeting: function () {
+            alert("Hi! I'm " + this.name.first + ".");
+        },
+        };
+
+        let myDataName = "height";
+        let myDataValue = "1.75m";
+        person[myDataName] = myDataValue;
+        person.age = 45;
+        person["name"]["last"] = "Cratchit";
+        person["eyes"] = "hazel";
+        person.farewell = function () {
+            alert ("Bye everybody!")
+        }
+
+        const myDiv = document.createElement("div");
+        const myVideo = document.querySelector("video");
+
+        const myNotification = new Notification("Hello!")
+    </script>
+
+
+</body>
+</html>
